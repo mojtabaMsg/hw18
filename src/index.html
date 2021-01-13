@@ -1,0 +1,42 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<title>
+			Student Resgistering
+		</title>
+	</head>
+		<body class="bodyClass">
+			<div class="innerBoxParent" >
+				<div class="innerBox">
+					<h2>Student Resgistering</h2>
+					<form >
+						<input class="inputClass" type="text" name="FirstName"  placeholder="  FirstName">
+						<input class="inputClass" type="text" name="LastName"   placeholder="  LastName">
+						<input class="inputClass" type="text" name="age" placeholder="  Age">
+						<input class="inputClass" type="text" name="NationalCode" placeholder="  NationalCode">
+						<input class="inputClass" type="text" name="tell" placeholder="phoneNumber">
+						<input class="inputClass" type="file" name="img">
+						<button class="inputClass btn2" type="submit" >Register</button>
+						<button class="inputClass btn" type="button" >Get All students</button>
+					</form>
+				</div>
+			<div class="innerBox" id="box2">
+			<h2>List Of the Students</h2>
+				<table id="mytb">
+					<tr style="background-color: #eaf0e5;font-weight: bold">
+						<td>First Name</td>
+						<td>Last Name</td>
+						<td> Phone Number</td>
+						<td>National Code</td>
+						<td>Age</td>
+						<td>Picture</td>
+					</tr>
+				</table>
+				<table id="mytb2">
+				</table>
+			</div>
+			</div>
+		</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/jScript.js"></script>
+	</html>
